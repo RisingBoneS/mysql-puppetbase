@@ -5,7 +5,7 @@ Music Group Test
  
 Virtual Box Network – using Bridged with the following static ip and subnet
 
-Server Name: mgdbsrv1
+Server Name: servername
 
 Ip : 		192.168.xx.xx/24
 
@@ -37,6 +37,7 @@ vi /etc/hosts
 
 
 **Puppet Installation**
+
 Install PuppetMaster and Agent on the same Server (notice I've skipped the cert key creation as both master and slave are on the same server):
 
 Go to  http://yum.puppetlabs.com/ and copy the download link for the latest version
